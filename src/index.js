@@ -1,5 +1,6 @@
 // Your code here
 document.addEventListener("DOMContentLoaded", () => {
+    const baseURL = "https://flatter-kitty.vercel.app/characters";
     const characterBar = document.getElementById("character-bar");
     const characterName = document.getElementById("name");
     const characterImage = document.getElementById("image");
@@ -7,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const votesForm = document.getElementById("votes-form");
     const votesInput = document.getElementById("votes");
     const resetButton = document.getElementById("reset-btn");
-    const baseURL = "http://localhost:3000/characters";
+  
     let currentCharacter = null;
   
   
